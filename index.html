@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Management System</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <h1 id="statHeader">Statistics of Students Results</h1>
+            <div id="TotalDays">Total Days</div>
+            <div id="MissedLessons">Missed Lessons</div>
+            <div id="AverageMark">Average Mark</div>            
+            <div id="TotalStudents">Total Students</div>
+            <footer>
+                <h4 id="author">Author</h4>
+                <h4 id="copy">2018 &copy; Mariam Bokeria</h4>
+            </footer>
+        </aside>
+
+        <main>
+            <div id="button">
+                <h1 id="table">Table</h1>
+                <button id="Add" onclick="addDay()">Add day</button>
+                <button id="Remove" onclick="removeDay()">Remove day</button>
+                <button id="Update">Update Table</button>
+            </div>
+
+            <!-- <div id="list">
+                <div id="names">
+                    <div id="empty"></div>
+                    <div id="one">ანა კურციკაშვილი</div>
+                    <div id="two">ბორის ბადაშვილი</div>
+                    <div id="three">გიორგი აბზიანიძე</div>
+                    <div id="four">გრიგოლ ჭყოიძე</div>
+                    <div id="five">დავით დავითიანი</div>
+                    <div id="six">დათო ქარსელაძე</div>
+                    <div id="seven">დეა სამნიაშვილი</div>
+                    <div id="eight">ელენე ქუში</div>
+                    <div id="nine">ვახტანგ ნოდაძე</div>
+                    <div id="ten">თათია ჟოდურიშვილი</div>
+                </div>
+
+                <div id="col">
+                    <div id="Average">Average</div>
+                    <div id="item1">0</div>
+                    <div id="item2">0</div>
+                    <div id="item3">0</div>
+                    <div id="item4">0</div>
+                    <div id="item5">0</div>
+                    <div id="item6">0</div>
+                    <div id="item7">0</div>
+                    <div id="item8">0</div>
+                    <div id="item9">0</div>
+                    <div id="item10">0</div>
+                </div>
+            </div> -->
+            
+            <table id="list">
+                <tr id="row1">
+                    <th></th>
+                    <th id="col1">Average</th>
+                </tr>
+
+                <tr id="row2"><td id="col2">გიორგი აბზიანიძე</td><td id="avg1"></td></tr>
+                <tr id="row3"><td id="col3">დათო ქარსელაძე</td><td id="avg2"></td></tr>
+                <tr id="row4"><td id="col4">ელენე ქუში</td><td id="avg3"></td></tr>
+                <tr id="row5"><td id="col5">ვახტანგ ნოდაძე</td><td id="avg4"></td></tr>
+                <tr id="row6"><td id="col6">თამუნა გოგოლაძე</td><td id="avg5"></td></tr>
+                <tr id="row7"><td id="col7">თეა სილაგავა</td><td id="avg6"></td></tr>
+                <tr id="row8"><td id="col8">მამუკა ანჯაფარიძე</td><td id="avg7"></td></tr>
+                <tr id="row9"><td id="col9">მარიამ ბოკერია</td><td id="avg8"></td></tr>
+                <tr id="row10"><td id="col10">მარიამ ჯანანაშვილი</td><td id="avg9"></td></tr>
+                <tr id="row11"><td id="col11">ნინო გრიგალაშვილი</td><td id="avg10"></td></tr>
+            </table>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
