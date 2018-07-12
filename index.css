@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+aside {
+    background-color: rgb(236, 235, 235);
+    grid-column: 1 / 2;
+}
+
+footer {
+    margin: 20px;
+    padding: 20px;
+}
+
+#author {
+    color: blue;
+}
+
+#copy {
+    color: green;
+}
+
+main {
+    background-color: rgb(212, 206, 206);
+    grid-column: 2 / 10;
+    overflow: auto;
+}
+
+#button {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    background-color: rgb(236, 235, 235);
+    margin: 50px 20px;
+}
+
+#table {
+    grid-column: 1 / 2;
+    padding: 5px 15px;
+}
+
+#Add {
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    grid-column: 2 / 3;
+}
+
+#Remove {
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    grid-column: 3 / 4;
+}
+
+#Update {
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    grid-column: 4 / 5;
+}
+
+table {
+    margin: 20px;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    background-color: rgb(172, 170, 170);
+}
+
+th {
+    text-align: right;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+#statHeader {
+    color: grey;
+    margin: 20px;
+}
+
+#TotalDays {
+    font-weight: bold;
+    margin: 20px;
+}
+
+#MissedLessons {
+    font-weight: bold;
+    margin: 20px;
+}
+
+#AverageMark {
+    font-weight: bold;
+    margin: 20px;
+}
+
+#TotalStudents {
+    font-weight: bold;
+    margin: 20px;
+}
